@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: chaplin-md-v2-5
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: BOT_NAME
+        value: Chaplin MD v2.5
+      - key: OWNER_NUMBER
+        value: 263780026088
+      - key: PREFIX
+        value: .
+      - key: MENU_IMAGE
+        value: https://files.catbox.moe/uj95z3.jpg
+      - key: SELF_URL
+        sync: false
+      - key: PORT
+        value: 3000

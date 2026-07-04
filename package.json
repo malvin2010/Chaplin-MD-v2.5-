@@ -1,0 +1,24 @@
+{
+  "name": "chaplin-md-v2.5",
+  "version": "2.5.0",
+  "description": "Chaplin MD v2.5 - WhatsApp Multi-Device Bot by Malvin C, powered by Handsome Tech ZW",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "node scripts/install-ytdlp.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "axios": "^1.7.7",
+    "express": "^4.19.2",
+    "pino": "^8.17.0",
+    "qrcode": "^1.5.3",
+    "dotenv": "^16.4.5",
+    "wa-sticker-formatter": "^4.4.4",
+    "mathjs": "^13.0.0",
+    "node-cache": "^5.1.2"
+  }
+}
